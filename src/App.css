@@ -1,0 +1,125 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(0, 100%, 74%);
+  background-image: url("./assets/images/bg-intro-desktop.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media (max-width: 768px) {
+  body {
+    background-image: url("./asstes/images/bg-intro-mobile.png");
+  }
+}
+.main-container {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  max-width: 1110px;
+  width: 100%;
+  padding: 20px;
+}
+
+.right-section {
+  max-width: 500px;
+  text-align: center;
+}
+
+.signup-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  background-color: white;
+  padding: 40px;
+  border-radius: 8px;
+}
+
+.signup-form input {
+  padding: 15px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.signup-form button {
+  padding: 15px;
+  border-radius: 5px;
+  background-color: #38cc8c;
+  color: white;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+}
+
+.signup-form p {
+  font-size: 12px;
+  color: #aaa;
+  text-align: center;
+}
+
+.signup-form a {
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 12px;
+  text-align: center;
+}
+
+.promo-banner {
+  background-color: #5e54a4;
+  color: white;
+  border-radius: 8px;
+  padding: 15px 20px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.left-section {
+  max-width: 500px;
+  color: white;
+  text-align: center;
+}
+
+.left-section h1 {
+  max-width: 500px;
+  color: white;
+  font-size: 40px;
+  margin-bottom: 20px;
+  line-height: 1.2;
+}
+
+.left-section p {
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.input-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.input-container.error input {
+  border: 2px solid hsl(0, 100%, 74%);
+  color: hsl(0, 100%, 74%);
+}
+
+.error-icon {
+  position: absolute;
+  right: 15px;
+  top: 15px;
+  width: 24px;
+  height: 24px;
+}
+
+.error-text {
+  color: hsl(0, 100%, 74%);
+  font-size: 11px;
+  font-style: italic;
+  text-align: right;
+  margin-top: 5px;
+  font-weight: 500;
+}
