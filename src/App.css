@@ -53,6 +53,11 @@ body {
   font-weight: bold;
   border: none;
   cursor: pointer;
+  
+}
+.signup-form button:focus {
+  outline: 3px solid #5e54a4;
+  outline-offset: 2px;
 }
 
 .signup-form p {
