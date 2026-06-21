@@ -15,6 +15,22 @@ body {
   body {
     background-image: url("./assets/images/bg-intro-mobile.png");
   }
+
+.main-container {
+flex-direction: column;
+text-align: center;
+gap: 30px;
+}
+
+.left-section {
+max-width: 100%;
+}
+
+.right-section {
+max-width: 100%;
+width: 100%;
+}
+
 }
 .main-container {
   display: flex;
